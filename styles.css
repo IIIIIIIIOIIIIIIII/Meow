@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#slider {
+	width: 800px;
+	height: 600px;
+	border: 20px solid black;
+	margin: 50px auto;
+	position: relative;	
+}
+
+img {
+	width: 100%;
+}
+
+#arrows {
+	margin: -50px auto;
+	width: 150px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#left {	
+	color: black;
+	font-weight: bold;
+	font-size: 5em;	
+}
+
+#right {	
+	color: black;
+	font-weight: bold;
+	font-size: 5em;	
+}
+
+#left:hover, #right:hover {
+	color: grey;
+	cursor: pointer;
+}
